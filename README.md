@@ -5,7 +5,7 @@ Listens for twitter for actions related to a certain keyword
 
 ## Installation
 
-You can install this package using yarn: after cloning the repository create a file called `twitterAuth.json`. Copy, paste and fill in the collowing json file:
+You can install this package using yarn: after cloning the repository create a file called `.keys/twitterAuth.json`. Copy, paste and fill in the collowing json file:
 ```
 {
   consumer_key: '',
