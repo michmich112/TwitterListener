@@ -1,0 +1,13 @@
+{
+  "name": "twitterListener",
+  "version": "1.0.0",
+  "description": "application that listens for tweets that include selected keywords",
+  "main": "app.js",
+  "author": "Michel Cantacuzene",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.2.1",
+    "readline": "^1.3.0",
+    "twitter": "^1.7.1"
+  }
+}
