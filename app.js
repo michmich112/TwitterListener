@@ -18,7 +18,7 @@ function main(){
       });
        
       stream.on('error', function(error) {
-       console.log('[ERROR]'.red + '\n' + event);
+       console.log('[ERROR]'.red + '\n' + error);
        //throw error;
       });
     });
