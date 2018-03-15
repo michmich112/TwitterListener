@@ -3,3 +3,6 @@ node_modules/*
 
 # all of our keys for security purposes
 .keys/*
+
+* error logs
+yarn-error.log
