@@ -5,15 +5,7 @@ Listens for twitter for actions related to a certain keyword. Lists all tweets c
 
 ## Installation
 
-You can install this package using yarn: after cloning the repository create a file called `.keys/twitterAuth.json`. Copy, paste and fill in the collowing json file:
-```
-{
-  "consumer_key": "",
-  "consumer_secret": "",
-  "access_token_key": "",
-  "access_token_secret": ""
-}
-```
+You can install this package using yarn: after cloning the repository fill in the `./keys/twitterAuthTemplate.json` with your credentials and rename it `.keys/twitterAuth.json`.
 You can get access to these credentials [here](https://apps.twitter.com/).
 Finally run the folowing command:
 
