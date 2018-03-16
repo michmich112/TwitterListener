@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 # TwitterListener
 
-Listens for twitter for actions related to a certain keyword
+Listens for twitter for actions related to a certain keyword. Lists all tweets containing or about the keyword.
 
 ## Installation
 
@@ -24,7 +24,12 @@ and the service will start up.
 
 ## Docker
 
-Not yet Supported
+Docker is supported. To run the project in a docker container run the following commands:
+```
+docker build . -t twitterlistener
+docker run -it --name tweet twitter:latest
+```
+and the service will start up. The container will be names `tweet` but you can change that in the second comand after the `--name` parameter.
 
 
 ## Configuration
