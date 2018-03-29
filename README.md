@@ -8,18 +8,16 @@ Listens for twitter for actions related to a certain keyword. Lists all tweets c
 You can install this package using yarn: after cloning the repository fill in the `./keys/twitterAuthTemplate.json` with your credentials and rename it `.keys/twitterAuth.json`.
 You can get access to these credentials [here](https://apps.twitter.com/).
 Finally run the folowing command:
-
-`yarn install && yarn run start`
-
-
+```
+yarn install && yarn run start
+```
 and the service will start up.
 
 ## Docker
 
 Docker is supported. To run the project in a docker container run the following commands:
 ```
-docker build . -t twitterlistener
-docker run -it --name tweet twitter:latest
+docker build . -t twitterlistener && docker run -it --name tweet twitter:latest
 ```
 and the service will start up. The container will be names `tweet` but you can change that in the second comand after the `--name` parameter.
 
